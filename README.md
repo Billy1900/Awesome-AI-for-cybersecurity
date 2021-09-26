@@ -1,5 +1,5 @@
 # Awesome-AI-for-cybersecurity
-Awesome list of AI for cybersecurity
+Awesome list of AI for cybersecurity, including network (network traffic analysis and intrusion detection), endpoint (anti-malware), application (WAF or database firewalls), user (UBA), process behavior (anti-fraud).
 
 ## 1. Introduction
 First, beginners should look at machine learning tasks and its applications. I wrote a [machine learning blog](https://github.com/Billy1900/Awesome-Machine-Learning) including CV (CNN,GAN), RL, GNN, NLP. 
