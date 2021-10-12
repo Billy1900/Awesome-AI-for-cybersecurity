@@ -4,6 +4,8 @@ Awesome list of AI for cybersecurity, including network (network traffic analysi
 ## 1. Introduction
 First, beginners should look at machine learning tasks and its applications. I wrote a [machine learning blog](https://github.com/Billy1900/Awesome-Machine-Learning) including CV (CNN,GAN), RL, GNN, NLP. 
 
+Additionally, developers still need to know more about security/cybersecurity, here is the [awesome list of security tool and knowledge.](security.md)
+
 Then, let's turn to AI for cybersecurity.
 
 The first dimension is a goal or a task. According to Gartner’s PPDR model, all security tasks can be divided into five categories:
