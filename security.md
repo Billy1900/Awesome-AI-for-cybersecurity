@@ -14,4 +14,5 @@ This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) 
 This repository lists [dynamic analysis tools](https://github.com/analysis-tools-dev/dynamic-analysis) for all programming languages, build tools, config files and more.
 
 # Misc
-- [ctf-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF
+- [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
+- [CTF tools](https://ctf-wiki.github.io/ctf-tools/): collections of tools used in CTF.
