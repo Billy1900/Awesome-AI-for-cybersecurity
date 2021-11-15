@@ -16,3 +16,4 @@ This repository lists [dynamic analysis tools](https://github.com/analysis-tools
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
 - [CTF tools](https://ctf-wiki.github.io/ctf-tools/): collections of tools used in CTF.
+- [CTF All in One](https://firmianay.gitbooks.io/ctf-all-in-one/content/): CTF contest introduction
