@@ -13,6 +13,12 @@ This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) 
 # 2. Dynamical analysis
 This repository lists [dynamic analysis tools](https://github.com/analysis-tools-dev/dynamic-analysis) for all programming languages, build tools, config files and more.
 
+# 3. LLVM
+
+# 4. GDB
+
+# 5. Objdump
+
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
 - [CTF tools](https://ctf-wiki.github.io/ctf-tools/): collections of tools used in CTF.
