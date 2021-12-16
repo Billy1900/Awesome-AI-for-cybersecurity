@@ -87,7 +87,7 @@ print expression will print out the value of the expression, which could be just
 (gdb) print 'basic.c'::gx        global scope in named file (>=4.6)
 (gdb) print/x &main     print address of function
 ```
-## MISC
+## ref
 Here is a quick reference of GDB -- [GDB GUIDE](gdb.pdf).
 
 # 5. Objdump
