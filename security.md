@@ -10,21 +10,25 @@
 # 1. Dynamical analysis
 This repository lists [dynamic analysis tools](https://github.com/analysis-tools-dev/dynamic-analysis) for all programming languages, build tools, config files and more.
 
-## Control/Data Flow Analysis (CFG/DFG)
+## 1.1 Control/Data Flow Analysis (CFG/DFG)
 A data-flow graph (DFG) is a graph which represents a data dependency between a number of operations. A control-flow graph (CFG) is a directed graph where the nodes are basic blocks (a section of code with a single entry and a single exit point) and edges represent branch/jump instructions.
 
 ### DFG generation Tool
 This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) of DFG, and more detailed [Introduction.](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/2.DATAFLOW.html)
 
 - [Perf tools](https://perf.wiki.kernel.org/index.php/Perf_tools_support_for_Intel%C2%AE_Processor_Trace) are packaged based on the kernel version, which means the version of perf provided by Linux distributions is always quite old, whereas updates to Intel PT support are happening all the time. That means, for the latest Intel PT features, we really need to download and build that latest perf.
-
 - [angr](https://angr.io/) is a python framework for analyzing binaries. It combines both static and dynamic symbolic ("concolic") analysis, making it applicable to a variety of tasks.
-
 - [PolyTracker](https://github.com/trailofbits/polytracker) is a tool originally created for the Automated Lexical Annotation and Navigation of Parsers, a backronym devised solely for the purpose of referring to it as The ALAN Parsers Project.
-
 - [Intel Pin](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html)
 
 # 2. Static analysis
+Static Analysis is the automated analysis of source code without executing the application. When the analysis is performed during program execution then it is known as Dynamic Analysis. Static Analysis is often used to detect:
+- Security vulnerabilities.
+- Performance issues.
+- Non-compliance with standards.
+- Use of out of date programming constructs.
+
+This is a curated list of [static analysis tool list.](https://github.com/analysis-tools-dev/static-analysis)
 
 # 3. LLVM
 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. More details are written in the [blog](llvm.md)
@@ -88,7 +92,7 @@ print expression will print out the value of the expression, which could be just
 (gdb) print 'basic.c'::gx        global scope in named file (>=4.6)
 (gdb) print/x &main     print address of function
 ```
-## ref
+## reference
 Here is a quick reference of GDB -- [GDB GUIDE](gdb.pdf).
 
 # 5. Objdump

@@ -1,34 +1,67 @@
 
-**Everythings is on [llvm official website.](https://llvm.org/)**
+# LLVM
+**Everything is on [llvm official website.](https://llvm.org/)**
+
+- [1. Introduction](#1-introduction)
+- [2. LLVM Doc](#2-llvm-doc)
+- [3. LLVM IR](#3-llvm-ir)
+- [4. LLVM Pass](#4-llvm-pass)
+- [MISC](#misc)
 
 ## 1. Introduction 
 <img src="llvm.png" width=500></img>
 
-And the [llvm download page](https://releases.llvm.org/), select a version (3.2) and then download three files:
+### 1.1 Installation via official script
+Only for Debian and Ubuntu:
+```shell
+wget https://apt.llvm.org/llvm.sh
+chmod +x llvm.sh
+sudo ./llvm.sh 13
+```
+
+### 1.2 Installation via source code
+And the [llvm download page](https://releases.llvm.org/), select a version (13.0.0) and then download three files:
 - LLVM source code
 - Clang source code
 - Compiler RT source code
 
-下载后进行解压，解压后应该得到三个名字分别为llvm-3.2.src、clang-3.2.src、compiler-rt-3.2.src。这时候，需要对这三个文件夹进行重命名，llvm-3.2.src重命名可以根据自己习惯，此处推荐重命名为llvm-3.2；clang-3.2.src重命名为clang，并且将此文件夹整体放到llvm-3.2/tools下，包含clang这个顶层文件夹；compiler-rt-3.2.src重命名为compiler-rt，并且将包含顶层文件夹的整体文件夹放到llvm-3.2/projects/下.
+After downloading and unzip, you can get three files: `llvm-13.0.0.src、clang-13.0.0.src、compiler-rt-13.0.0.src`. Usually, you can rename three files: `llvm-13.0.0.src` is recommended to `llvm-13.0.0`；`clang-13.0.0.src` is renamed to `clang`，and put it into `llvm-13.0.0/tools`；`compiler-rt-13.0.0.src` is renamed to `compiler-rt` and put into `llvm-13.0.0/projects/`.
 
-此时，打开一个终端，切换到llvm-3.2目录下，依次输入如下命令：
+The shell script is as follows (13.0.0 as an example)
 ```shell
-mkdir build
-cd build
-cmake ../
+# 下载源码
+wget https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/llvm-project-13.0.0.src.tar.xz
+# 解压源码
+tar xvf llvm-project-13.0.0.src.tar.xz
+# 新建安装目录
+sudo mkdir -p /usr/local/llvm
+# 新建编译目录
+sudo mkdir -p llvm-project-13.0.0.src/build
+# 进入编译目录
+cd llvm-project-13.0.0.src/build
+# cmake生成编译信息
+cmake -G "Unix Makefiles" -DLLVM_ENABLE_PROJECTS="clang;lldb" -DLLVM_TARGETS_TO_BUILD=X86 -DCMAKE_BUILD_TYPE="Release" -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_INSTALL_PREFIX="/usr/local/llvm" ../llvm
+# 编译
 make
+# 安装到安装目录
+make install
 ```
-然后就可以在llvm-3.2/build/bin目录下看到一大堆的可执行文件. 此处不使用make install是方便在系统上使用多版本的llvm进行研究和修改.
 
-这个时候可以运行如下命令，来看看clang:
+`usr/local/llvm` is installation directory, `llvm-project-13.0.0.src` is source code directory, `llvm-project-13.0.0.src/build` is a directory which contains the built file.
+
+and we could see whether it is installed succesfully:
 ```shell
 ./clang -v
 ./clang -help
 ```
-可以写一个简单的helloworld程序，使用clang进行编译，使用方法和gcc相同：
+
+and then we write a helloworld program in `main.c`.
 ```shell
-./clang hello.c
-./a.out
+# 二进制代码形式
+clang -emit-llvm -c main.c -o main.bc
+
+# 可读文本代码形式
+clang -S -emit-llvm -c main.c -o main.ll
 ```
 
 ## 2. LLVM Doc
@@ -63,6 +96,15 @@ IR是 intermediate representation的缩写，顾名思义是中间表示的的�
 LLVM IR主要有三种格式：一种是在内存中的编译中间语言；一种是硬盘上存储的二进制中间语言(以.bc结尾)，最后一种是可读的中间格式(以.ll结尾)。这三种中间格式是完全相等的。
 
 LLVM IR是LLVM优化和进行代码生成的关键。根据可读的IR，我们可以知道再最终生成目标代码之前，我们已经生成了什么样的代码。而且根据IR，我们可以选择使用不同的后端而生成不同的可执行代码。同时，因为使用了统一的IR，所以我们可以重用LLVM的优化功能，即使我们使用的是自己设计的编程语言。
+
+我们需要首先理解四个具有依次包含关系的基本概念：
+
+- Module（模块）是一份LLVM IR的顶层容器，对应于编译前端的每个翻译单元（TranslationUnit）。每个模块由目标机器信息、全局符号（全局变量和函数）及元信息组成。
+- Function（函数）就是编程语言中的函数，包括函数签名和若干个基本块，函数内的第一个基本块叫做入口基本块。
+- BasicBlock（基本块）是一组顺序执行的指令集合，只有一个入口和一个出口，非头尾指令执行时不会违背顺序跳转到其他指令上去。每个基本块最后一条指令一般是跳转指令（跳转到其它基本块上去），函数内最后一个基本块的最后条指令是函数返回指令。
+- Instruction（指令）是LLVM IR中的最小可执行单位，每一条指令都单占一行
+
+<img src="IR.png"></img>
 
 如果想直观的看下llvm的IR到底是什么样的，可以先写一个helloworld的程序，文件名字叫做hello.c。
 
