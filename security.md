@@ -11,7 +11,7 @@
 This repository lists [dynamic analysis tools](https://github.com/analysis-tools-dev/dynamic-analysis) for all programming languages, build tools, config files and more.
 
 ## 1.1 Control/Data Flow Analysis (CFG/DFG)
-A data-flow graph (DFG) is a graph which represents a data dependency between a number of operations. A control-flow graph (CFG) is a directed graph where the nodes are basic blocks (a section of code with a single entry and a single exit point) and edges represent branch/jump instructions.
+A data-flow graph (DFG) is a graph which represents a data dependency between a number of operations. A control-flow graph (CFG) is a directed graph where the nodes are basic blocks (a section of code with a single entry and a single exit point) and edges represent branch/jump instructions. [Finding Redundant Structures in Data Flow Graphs](https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/dfg-cover/) gives a lot of details (code and theory) about DFG construction.
 
 ### DFG generation Tool
 This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) of DFG, and more detailed [Introduction.](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/2.DATAFLOW.html)
