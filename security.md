@@ -5,6 +5,7 @@
 - [5. Objdump](#5-objdump)
 - [6. Makefile](#6-makefile)
 - [7. Vim](#7-vim)
+- [8. Other Tools](#8-other-tools)
 - [Misc](#misc)
 
 # 1. Dynamical analysis
@@ -106,6 +107,10 @@ Here are some objdump examples -- [Linux Objdump Command Examples](https://www.t
 
 # 7. Vim
 Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang/zh_cn).
+
+# 8. Other Tools
+- Ollydbg
+- X64dbg
 
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
