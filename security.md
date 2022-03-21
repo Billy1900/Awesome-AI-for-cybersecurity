@@ -20,7 +20,7 @@ This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) 
 - [Perf tools](https://perf.wiki.kernel.org/index.php/Perf_tools_support_for_Intel%C2%AE_Processor_Trace) are packaged based on the kernel version, which means the version of perf provided by Linux distributions is always quite old, whereas updates to Intel PT support are happening all the time. That means, for the latest Intel PT features, we really need to download and build that latest perf.
 - [angr](https://angr.io/) is a python framework for analyzing binaries. It combines both static and dynamic symbolic ("concolic") analysis, making it applicable to a variety of tasks.
 - [PolyTracker](https://github.com/trailofbits/polytracker) is a tool originally created for the Automated Lexical Annotation and Navigation of Parsers, a backronym devised solely for the purpose of referring to it as The ALAN Parsers Project.
-- [Intel Pin](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html)
+- [Intel Pin](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html): [Pin tool example](https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.2.1_pin.html)
 
 # 2. Static analysis
 Static Analysis is the automated analysis of source code without executing the application. When the analysis is performed during program execution then it is known as Dynamic Analysis. Static Analysis is often used to detect:
