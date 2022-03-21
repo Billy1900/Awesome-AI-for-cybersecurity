@@ -21,6 +21,7 @@ This is a simple [example](http://bears.ece.ucsb.edu/research-info/DP/dfg.html) 
 - [angr](https://angr.io/) is a python framework for analyzing binaries. It combines both static and dynamic symbolic ("concolic") analysis, making it applicable to a variety of tasks.
 - [PolyTracker](https://github.com/trailofbits/polytracker) is a tool originally created for the Automated Lexical Annotation and Navigation of Parsers, a backronym devised solely for the purpose of referring to it as The ALAN Parsers Project.
 - [Intel Pin](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html): [Pin tool example](https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.2.1_pin.html)
+- [Triton](https://github.com/JonathanSalwan/Triton) is a dynamic binary analysis library. It provides internal components like a dynamic symbolic execution engine, a dynamic taint analysis engine, AST representation of the x86, x86-64, ARM32 and AArch64 ISA semantic, an expressions synthesis engine, some SMT simplification passes, SMT solver interface to Z3 and Bitwuzla and, the last but not least, Python bindings. Based on these components, you are able to build your program analysis tools, automate reverse engineering, perform software verification or just emulate code.
 
 # 2. Static analysis
 Static Analysis is the automated analysis of source code without executing the application. When the analysis is performed during program execution then it is known as Dynamic Analysis. Static Analysis is often used to detect:
