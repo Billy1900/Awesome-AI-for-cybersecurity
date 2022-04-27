@@ -118,6 +118,7 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - Ollydbg
 - X64dbg
 - [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
+- [PE view](https://www.aldeid.com/wiki/PEView): PEview is a viewer for PE files.
 
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
