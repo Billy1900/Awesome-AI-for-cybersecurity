@@ -5,7 +5,8 @@
 - [5. Objdump](#5-objdump)
 - [6. Makefile](#6-makefile)
 - [7. Vim](#7-vim)
-- [8. Other Tools](#8-other-tools)
+- [8. Pack](#8-Pack)
+- [9. Other Tools](#9-other-tools)
 - [Misc](#misc)
 
 # 1. Dynamical analysis
@@ -109,7 +110,11 @@ Here are some objdump examples -- [Linux Objdump Command Examples](https://www.t
 # 7. Vim
 Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang/zh_cn).
 
-# 8. Other Tools
+# 8. Pack
+- [PEiD](https://www.aldeid.com/wiki/PEiD): PEiD detects most common packers, cryptors and compilers for PE files.
+- [UPX](https://upx.github.io/): UPX is a free, portable, extendable, high-performance executable packer for several executable formats.
+
+# 9. Other Tools
 - Ollydbg
 - X64dbg
 
