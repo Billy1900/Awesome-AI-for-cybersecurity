@@ -117,6 +117,7 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 # 9. Other Tools
 - Ollydbg
 - X64dbg
+- [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
 
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
