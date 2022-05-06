@@ -121,7 +121,7 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
 - [PE view](https://www.aldeid.com/wiki/PEView): PEview is a viewer for PE files.
 - [PE Explorer](http://www.pe-explorer.com/) is the most feature-packed program for inspecting the inner workings of your own software, and more importantly, third party Windows applications and libraries for which you do not have source code.
-- [iaito](https://github.com/radareorg/iaito): the official graphical interface for radare2, a libre reverse engineering framework
+- [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset
 
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
