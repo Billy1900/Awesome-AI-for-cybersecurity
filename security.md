@@ -6,7 +6,8 @@
 - [6. Makefile](#6-makefile)
 - [7. Vim](#7-vim)
 - [8. Pack](#8-Pack)
-- [9. Other Tools](#9-other-tools)
+- [9. Obfuscation](#9-Obfuscation)
+- [Other Tools](#other-tools)
 - [Misc](#misc)
 
 # 1. Dynamical analysis
@@ -114,7 +115,12 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [PEiD](https://www.aldeid.com/wiki/PEiD): PEiD detects most common packers, cryptors and compilers for PE files.
 - [UPX](https://upx.github.io/): UPX is a free, portable, extendable, high-performance executable packer for several executable formats.
 
-# 9. Other Tools
+# 9. Obfuscation
+- [PERSES](https://github.com/mike1k/perses) is a X86 code obfuscation engine that works with Portable Executable files.
+- [LLVM obfuscator](https://github.com/obfuscator-llvm/obfuscator)
+- [tigress](https://tigress.wtf/)
+
+# Other Tools
 - IDA pRO
 - Ollydbg
 - X64dbg
