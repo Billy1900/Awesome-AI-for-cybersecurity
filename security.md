@@ -136,3 +136,4 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [CTF 101](https://ctf101.org/)
 - [逆向工程权威指南](https://beginners.re/)
 - [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [awesome-reverse-engineering](https://github.com/alphaSeclab/awesome-reverse-engineering)
