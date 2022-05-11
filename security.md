@@ -135,3 +135,4 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [CTF All in One](https://firmianay.gitbooks.io/ctf-all-in-one/content/): CTF contest introduction
 - [CTF 101](https://ctf101.org/)
 - [逆向工程权威指南](https://beginners.re/)
+- [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
