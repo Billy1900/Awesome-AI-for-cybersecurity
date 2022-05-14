@@ -121,8 +121,9 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [tigress](https://tigress.wtf/)
 
 # Other Tools
-- IDA pRO
+- IDA Pro
 - Ollydbg
+  - [OllyDbg从零开始Cracking](https://bbs.pediy.com/thread-184679.htm)
 - X64dbg
 - [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
 - [PE view](https://www.aldeid.com/wiki/PEView): PEview is a viewer for PE files.
