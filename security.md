@@ -121,7 +121,7 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
 - [tigress](https://tigress.wtf/)
 
 # Other Tools
-- IDA Pro
+- IDA Pro: [IDA Pro Tutotial](https://tutorial.evogtechteam.com/wp-content/uploads/2016/11/IDA-Pro%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E7%AC%AC2%E7%89%88-.pdf)
 - Ollydbg
   - [OllyDbg从零开始Cracking](https://bbs.pediy.com/thread-184679.htm)
 - X64dbg
