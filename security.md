@@ -126,10 +126,14 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
   - [OllyDbg从零开始Cracking](https://bbs.pediy.com/thread-184679.htm)
 - X64dbg
   - [ScyllaHide](https://github.com/x64dbg/ScyllaHide) is an advanced open-source x64/x86 user mode Anti-Anti-Debug library.
+
+- [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset
+## PE tool
 - [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
 - [PE view](https://www.aldeid.com/wiki/PEView): PEview is a viewer for PE files.
 - [PE Explorer](http://www.pe-explorer.com/) is the most feature-packed program for inspecting the inner workings of your own software, and more importantly, third party Windows applications and libraries for which you do not have source code.
-- [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset
+- [PEiD](https://www.aldeid.com/wiki/PEiD) detects most common packers, cryptors and compilers for PE files.
+- [LIEF](https://github.com/lief-project/LIEF): Library to Instrument Executable Formats
 
 # Misc
 - [CTF-wiki](https://ctf-wiki.org/): CTF Wiki mainly contains the basic skills for CTF.
