@@ -126,8 +126,8 @@ Here is a quick reference of Vim -- [Vim Cheat Sheet](https://vim.rtorr.com/lang
   - [OllyDbg从零开始Cracking](https://bbs.pediy.com/thread-184679.htm)
 - X64dbg
   - [ScyllaHide](https://github.com/x64dbg/ScyllaHide) is an advanced open-source x64/x86 user mode Anti-Anti-Debug library.
-
-- [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset
+- [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset.
+- [HyperDbg](https://github.com/HyperDbg/HyperDbg): HyperDbg Debugger is an open-source, community-driven, hypervisor-assisted, user-mode and kernel-mode Windows debugger with a focus on using modern hardware technologies. It is a debugger designed for analyzing, fuzzing and reversing.
 ## PE tool
 - [Dependency Walker](https://www.dependencywalker.com/) is a free utility that scans any 32-bit or 64-bit Windows module.
 - [PE view](https://www.aldeid.com/wiki/PEView): PEview is a viewer for PE files.
