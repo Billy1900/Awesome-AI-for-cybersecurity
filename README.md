@@ -102,6 +102,7 @@ Notable solutions include Next-Generation Firewall (NGFW),Web Application Firewa
 - [Machine Learning and Security](https://www.oreilly.com/library/view/machine-learning-and/9781491979891/)
 - [Mastering Machine Learning for Penetration Testing](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
 - [Malware Data Science](https://nostarch.com/malwaredatascience)
+- [AI for Cybersecurity: A Handbook of Use Cases](https://psucybersecuritylab.github.io/)
 ### 8.2 Survey Paper
 - [Deep Learning Algorithms for Cybersecurity Applications: A Technological and Status Review](https://www.sciencedirect.com/science/article/pii/S1574013720304172)
 - [Machine Learning and Cybersecurity Hype and Reality](https://cset.georgetown.edu/publication/machine-learning-and-cybersecurity/)
