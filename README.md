@@ -97,6 +97,7 @@ Notable solutions include Next-Generation Firewall (NGFW),Web Application Firewa
 
 
 ## 9. AI Security Agents
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) — Open-source (GPL-3.0) autonomous AI pentest platform and MCP host with per-tech offensive sub-agents, Active Directory and Kubernetes coverage, 80+ tools, and an evidence trail per finding.
 - [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — AI security agent for research infrastructure (pentest + blue team + CTF). 14+ specialized agent roles (Scientist, Pentester, SOC Analyst, Forensic Investigator) with zero-configuration deployment via Docker Compose.
 
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) — On-chain behavioral scoring MCP server for AI cybersecurity agents on Solana. Verify AI SOC agent wallet identity before granting access to sensitive threat data. Supports x402-gated trust receipts for agent-to-agent attestation. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
