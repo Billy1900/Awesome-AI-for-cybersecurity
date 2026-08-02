@@ -101,6 +101,7 @@ Notable solutions include Next-Generation Firewall (NGFW),Web Application Firewa
 - [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) — AI security agent for research infrastructure (pentest + blue team + CTF). 14+ specialized agent roles (Scientist, Pentester, SOC Analyst, Forensic Investigator) with zero-configuration deployment via Docker Compose.
 
 - [TWZRD Agent Intel](https://intel.twzrd.xyz) — On-chain behavioral scoring MCP server for AI cybersecurity agents on Solana. Verify AI SOC agent wallet identity before granting access to sensitive threat data. Supports x402-gated trust receipts for agent-to-agent attestation. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+- [Trent Agentic AI security](https://trent.ai) —  Continuously assesses AI agents, MCP servers, LLM and AI-native applications, and code shipped with AI coding tools, traces attack chains, and verifies proposed fixes landed.
 ### 8.1 Book
 - [AI for Cybersecurity by Cylance(2017)](https://www.blackberry.com/us/en/forms/cylance/gated-content/introduction-to-ai-book?_ga=2.89683291.1595385041.1538052662-139740503.1538052662)
 - [Machine Learning and Security](https://www.oreilly.com/library/view/machine-learning-and/9781491979891/)
