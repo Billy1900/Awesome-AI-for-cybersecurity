@@ -59,6 +59,10 @@ Here are examples what you can do with machine learning for application security
 and there are some research work to follow:
 - [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf)
 
+### LLM Application Firewalls
+
+- [Koma](https://github.com/swnotmetal/Project-Koma) — Zero-dependency AI firewall middleware for Node.js/TypeScript. Semantic guard against prompt injection (`koma-gate`, 96.2% recall on [public corpus](https://huggingface.co/datasets/deepset/prompt-injections)), rate limiting + audio validation (`koma-scout`), and split-store RAG protection (`koma-core`). MIT license.
+
 ## 5. User Behavior
 Unlike malware detection focusing on common attacks and the possibility to train a classifier, user behavior is one of the complex layers and unsupervised learning problem.
 
