@@ -59,6 +59,10 @@ Here are examples what you can do with machine learning for application security
 and there are some research work to follow:
 - [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf)
 
+### Behavioral Security & Decision Models
+
+- [JevSec](https://github.com/ccjmcc/jevsec) — Jev-compatible decision-model security triage for short cross-request web behavior, combining deterministic rules with a local Qwen3-4B model, privacy-aware normalization, and shadow-mode review. MIT licensed.
+
 ### LLM Application Firewalls
 
 - [Koma](https://github.com/swnotmetal/Project-Koma) — Zero-dependency AI firewall middleware for Node.js/TypeScript. Semantic guard against prompt injection (`koma-gate`, 96.2% recall on [public corpus](https://huggingface.co/datasets/deepset/prompt-injections)), rate limiting + audio validation (`koma-scout`), and split-store RAG protection (`koma-core`). MIT license.
