@@ -66,6 +66,7 @@ and there are some research work to follow:
 ### LLM Application Firewalls
 
 - [Koma](https://github.com/swnotmetal/Project-Koma) — Zero-dependency AI firewall middleware for Node.js/TypeScript. Semantic guard against prompt injection (`koma-gate`, 96.2% recall on [public corpus](https://huggingface.co/datasets/deepset/prompt-injections)), rate limiting + audio validation (`koma-scout`), and split-store RAG protection (`koma-core`). MIT license.
+- [HOL Guard](https://hol.org/guard) — Free, open-source (Apache-2.0) local control layer for AI coding agents. Checks shell commands, secret reads, MCP tool calls and package installs before they run, and pauses risky ones for the user to approve or block.
 
 ## 5. User Behavior
 Unlike malware detection focusing on common attacks and the possibility to train a classifier, user behavior is one of the complex layers and unsupervised learning problem.
